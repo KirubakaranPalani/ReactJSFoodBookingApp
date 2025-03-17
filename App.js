@@ -1,7 +1,6 @@
 // import React from "react";
 // import ReactDOM from "react-dom/client";
 
-
 // // creating DOM elements ( tagname, id, children)
 // // React element is a object once we render it is converted to html
 // const parent = React.createElement("div", { id: "parent"}, [
@@ -11,7 +10,6 @@
 // ]);
 
 // console.log(parent);
-
 
 // // to render
 // const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -30,7 +28,7 @@
 //     <h3>This is sub component and this is called of component composition</h3>
 // )
 
-// const SubCompFunc = function (){ 
+// const SubCompFunc = function (){
 //     return (
 //     <h3>This is sub component function using function keyword and this is called of component composition</h3>
 // )}
@@ -50,33 +48,17 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
+import Body from "./components/Body";
 
-const Header = () => {
-    return (
-        <div className="header">
-            <div className="logo-container">
-                <img 
-                    className="logo"
-                    src="https://thumbs.dreamstime.com/b/food-delivery-logo-template-vector-icon-illustration-170869600.jpg?w=768"
-                />
-            </div>
-            <div className="nav-items">
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Cart</li>
-                </ul>
-            </div>
-        </div>
-    );
-};
- 
 const AppLayout = () => {
-    return <div className="app">
-        <Header />
-    </div>;
-}
+  return (
+    <div className="app">
+      <Header />
+      <Body />
+    </div>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<AppLayout />);
