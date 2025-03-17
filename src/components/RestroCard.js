@@ -4,7 +4,7 @@ import { CDN_URL } from "../utils/constant";
 const RestroCard = (props) => {
   const {resData} = props;
   const { cloudinaryImageId, name, cuisines, locality, avgRating} = resData?.info
-  console.log(resData);
+  // console.log(resData);
     // const {resName, cuisine, location="default location", rating=4} = props;
   return (
     <div className="res-card" 
@@ -25,7 +25,7 @@ const RestroCard = (props) => {
 };
 
 const styleCard = {
-  backgroundColor: "#f0f0f0"
+  backgroundColor:"rgb(228, 226, 226)"
 }
 
 export default RestroCard;

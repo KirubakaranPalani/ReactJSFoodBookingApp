@@ -4,8 +4,12 @@
   display: flex;
 }
 
+.logo-container {
+  align-content: center;
+}
+
 .logo {
-  width: 200px;
+  width: 250px;
 }
 
 .nav-items {
@@ -21,6 +25,10 @@
 .nav-items > ul > li {
   margin: 20px;
   padding: 40px 20px;
+}
+
+.body {
+  background-color: #f0efef;
 }
 
 .res-container {

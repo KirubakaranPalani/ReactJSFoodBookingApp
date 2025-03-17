@@ -4,7 +4,7 @@ import RestroCard from "./RestroCard";
 import resList from "../utils/mockData";
 
 const Body = () => {
-  
+
   const [resList1, setResList1] = useState(resList)
 
   return (
