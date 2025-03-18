@@ -56,4 +56,35 @@
   width: 100%;
   height: 300px;
 }
+
+.shimmer-container {
+  display: flex;
+}
+
+.shimmer-cards {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+}
+
+.login-btn {
+  cursor: pointer;
+  margin: 30px 20px;
+  padding: 20px;
+}
+
+.search-btn {
+  cursor: pointer;
+}
+
+.filter {
+  padding: 10px;
+  display: flex;
+}
+
+.filter-btn {
+  cursor: pointer;
+  margin: 10px;
+}
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

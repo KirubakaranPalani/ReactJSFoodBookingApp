@@ -49,3 +49,28 @@
     height: 300px;
 
 }
+.shimmer-container {
+    display: flex;
+}
+.shimmer-cards {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color:#f0f0f0;
+}
+.login-btn{
+    margin: 30px 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.search-btn{
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    padding: 10px;
+}
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
